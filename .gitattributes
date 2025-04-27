@@ -1,0 +1,11 @@
+# forcer LF sur tous les fichiers texte
+* text=auto eol=lf
+
+# t’assurer que tes scripts restent executables
+*.sh text eol=lf
+
+# Next.js
+*.js   text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.mjs  text eol=lf
