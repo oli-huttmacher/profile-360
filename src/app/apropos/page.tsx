@@ -14,7 +14,9 @@ export default function Apropos() {
                </div>
                         <div className="flex flex-col items-center w-2xl mt-2 ">
                            <h1 className="text-3xl mb-3 font-thin bg-neutral-100">A propos de moi</h1>
-                           <p className="font-normal text-center text-1xl">Je suis développeur front-end avec des compétences en JavaScript, React, Next.js, HTML et CSS. Je suis passionné par la création d'interfaces modernes, performantes et accessibles. Ma curiosité et ma capacité d'apprentissage me permettent d'évoluer rapidement dans les environnements techniques actuels, notamment avec des outils comme Vite et Node.js.<br />Autonome et curieux, je m'intéresse aussi au design graphique (Photoshop, Illustrator, Figma) et au développement de jeux 2D (Unity), pour nourrir une approche créative du web.</p>
+                           <p className="font-normal text-center text-1xl"> Je suis développeur front-end avec des compétences en JavaScript, React, Next.js, HTML et CSS. Je suis passionné par la création d'interfaces modernes, performantes et accessibles. Ma curiosité et ma capacité d'apprentissage me permettent d'évoluer rapidement dans les environnements techniques actuels, notamment avec des outils comme Vite et Node.js.
+                              <br />
+                                 Autonome et curieux, je m'intéresse aussi au design graphique (Photoshop, Illustrator, Figma) et au développement de jeux 2D (Unity), pour nourrir une approche créative du web.</p>
             </div>
             <div className="mt-4">
                <div className="flex items-center gap-2">
@@ -47,8 +49,7 @@ export default function Apropos() {
                      </div>
                <div className={styles.quality}>
                   <h2 className="text-2xl bg-orange-200 mb-4">Qualités</h2>
-             <li className={styles.qualityIndent}>Curieux et toujours à l'affût des nouvelles technologies
-             </li>
+             <li className={styles.qualityIndent}>Curieux et toujours à l'affût des nouvelles technologies</li>
              
                      <li className={styles.qualityIndent}>Sens du détail dans le code comme dans le design</li>
                      <li className={styles.qualityIndent}>Créatif, avec une sensibilité visuelle développée</li>
