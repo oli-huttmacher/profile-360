@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./GalerieImageManuel5.module.css";
+import styles from "./galerieImageManuel5.module.css";
 
 export default function GalerieImageManuel5() {
    return (
