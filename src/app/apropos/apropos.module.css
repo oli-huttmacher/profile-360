@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/inter_18pt-ExtraLight.ttf") format("truetype");
+  font-weight: 100; /* Thin */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/inter_18pt-Light.ttf") format("truetype");
+  font-weight: 300; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular / Normal */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/inter_18pt-MediumItalic.ttf") format("truetype");
+  font-weight: 500; /* Regular / Normal */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/inter_18pt-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+  font-family: "inter";
+  border: 2px solid rgb(213, 213, 213);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.6);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  
+}
+.main {
+  dislay: grid;
+  grid-template-columns: 1fr;
+}
+/*formations*/
+.formations {
+  font-family: "inter";
+  padding: 0 1rem 0 1rem; 
+  border-left: 2px solid gray;
+  border-style: dotted;
+}
+.formations h1 {
+  font-family: "inter";
+  font-weight: 300;
+}
+.quality h2 {
+
+}
+.langues {
+}
+/*experiences professionelle*/
+.experiences {
+  border-left: 2px solid rgb(102, 102, 102);
+  border-style: dotted;
+  padding: 0 2rem 0 2rem; 
+}
+.experiences h2 {
+  font-family: "inter";
+  font-weight: 700;
+  /* display: block;
+  width: max-content;         /* réduit la largeur à la longueur du texte */
+  padding: 0.2em 0.5em;
+}
+.experiences p {
+  font-family: "inter";
+  font-weight: 500;
+}
+.experiences h1 {
+  font-family: "inter";
+  font-weight: 300;
+
+}
+.experiences li {
+  font-family: "inter";
+  font-weight: 300;
+}
+.qualityIndent{
+
+  padding-left: 1.5em;  
+  text-indent: -1.5em;
+
+}
+.experiencesIndent{
+  padding-left: 1.5em;    
+  text-indent: -1.5em; 
+}
+
+.clipWrapper {
+  width: 240px;
+  height: 250px;
+  /* overflow: hidden; */
+  filter: drop-shadow(5px 5px 4px rgba(152,220,219,0.7));
+}
+
+.containerSvg {
+  width: 100%;
+  height: 100%;
+  background: url('/images/apropos/portrait.jpg') no-repeat center/cover;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 100%, 0 100%);
+  border: 6px solid rgb(215, 215, 215);
+  /* filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3)); */
+}

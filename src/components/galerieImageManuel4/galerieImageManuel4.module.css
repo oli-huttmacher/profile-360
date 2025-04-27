@@ -1,0 +1,24 @@
+
+.wrapper{
+
+}
+.containerVertical{
+   width: 900px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 40px;
+
+}
+.containerVertical img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+
+.info{
+   color: white;
+} 
+ 
